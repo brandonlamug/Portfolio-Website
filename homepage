@@ -1,0 +1,95 @@
+<HTML>
+<HEAD><CENTER><H1>BRANDON LAMUG</H1>
+</CENTER>
+</HEAD>
+<body> 
+<H2>Software Developer with experience in Python, HTML, CSS, & Pine Script.</H2>
+    <li1>Data Scraping</li1><br>  
+    <br><li2>miscellaneous</li2><br>
+    <br><li3><a href="pinescript.html">Pine Script</a></li3><br>  
+    <center><p3><a href="https://github.com/brandonlamug" target="_blank" >Pssst. Click here to check out my Github!</a></p3></center>
+<H3>
+</H3>
+    <div class="profile-icon">
+    <img src="me.jpg" alt="Lamug">
+</div>
+</body>
+<style>
+    .profile-icon {
+    width: 190px; /* Adjust the size as needed */
+    height: 190px; /* Adjust the size as needed */
+    border-radius: 50%; /* This makes the element circular */
+    overflow: hidden; /* Ensures content does not protrude outside the circle */
+    background-color: #ccc; /* Placeholder background color */
+    position: absolute;
+    top: 65px; /* Adjust as needed for top margin */
+    right: 50px; /* Adjust as needed for right margin */
+  }
+
+  .profile-icon img {
+    width: 100%; /* Ensures the image fills the circular container */
+    height: 100%; /* Ensures the image fills the circular container */
+    object-fit: cover; /* Maintain aspect ratio while filling the container */
+  }
+    body {
+    background-color : lightblue;
+    background-repeat : no-repeat;
+}
+    h1 {
+        font-size: large;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 6px;
+        border-color: darkred;
+        background-color: salmon;
+        padding: 5px;    
+    }
+    li1 {
+        font-size: medium;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 6px;
+        border-color: darkblue;
+        background-color: aqua;
+        padding: 5px;    
+        white-space: pre;
+        position: absolute;
+        bottom: 80px; /* Adjust as needed for top margin */
+        left: 100px;
+    }
+    li2 {
+        font-size: medium;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 6px;
+        border-color: red;
+        background-color: lightpink;
+        padding: 5px;    
+    }
+    li3 {
+        font-size: medium;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 6px;
+        border-color: gold;
+        background-color: lightyellow;
+        padding: 5px;     
+
+    }
+    p3{ 
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        color: palegreen;
+        font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: palegreen;
+        border-style:solid;
+        border-width: 3px;
+        border-color: darkgreen;
+        border-radius: 5px;
+        padding: 3px;
+    }      
+</style>
+</HTML>
