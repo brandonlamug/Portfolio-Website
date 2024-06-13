@@ -1,0 +1,118 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hello Bulma!</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</HEAD>
+<body> 
+
+   
+
+<p class="line-1 anim-typewriter">Southpaw Tech Solutions</p>
+
+<H2>As a CompTIA certified Software Developer with experience in Python, HTML, CSS, & Pine Script, I am more than qualified to handle your projects.</H2>
+<center><p3><a href="https://github.com/brandonlamug" target="_blank" >Pssst. Click here to check out my Github!</a></p3></center>
+
+
+<H3>
+</H3>
+
+<!--STYLING-->
+<style>
+
+ 
+    <div class="background"></div>
+   
+   /* typewriter text */
+   html{
+     min-height: 100%;
+     overflow: hidden;
+   }
+   body{
+     height: calc(100vh - 8em);
+     padding: 4em;
+     color: rgba(255,255,255,.75);
+     font-family: 'Anonymous Pro', monospace;  
+     background-color: rgb(25,25,25);  
+   }
+   .line-1{
+       position: relative;
+       top: 50%;  
+       width: 24em;
+       margin: 0 auto;
+       border-right: 2px solid rgba(255,255,255,.75);
+       font-size: 180%;
+       text-align: center;
+       white-space: nowrap;
+       overflow: hidden;
+       transform: translateY(-50%);    
+   }
+   h2 {
+            position: relative;
+            top: 40%;  /* Positioning to be below .line-1 */
+            text-align: center;
+            color: #fff;
+            margin-top: 20px;  /* Space between .line-1 and h2 */
+        }
+   /* Animation */
+   .anim-typewriter{
+     animation: typewriter 3s steps(44) 1s 1 normal both,
+                blinkTextCursor 500ms steps(44) infinite normal;
+   }
+   @keyframes typewriter{
+     from{width: 0;}
+     to{width: 15em;}
+   }
+   @keyframes blinkTextCursor{
+     from{border-right-color: rgba(255,255,255,.75);}
+     to{border-right-color: transparent;}
+   }        
+   
+   body, html {
+               height: 100%;
+               margin: 0;
+               position: relative;
+               overflow: hidden;
+               background-image: url('blue.jpg');
+               background-repeat: no-repeat;
+               background-attachment: fixed;
+               background-size: cover;
+               background-position: center center;
+               background-attachment: fixed; 
+     }
+   
+   .line-1 {
+               border: 1px solid #333; /* Border properties */
+               border-width: 10px;
+               padding: 10px; /* Space inside the border */
+               font-size: 24px; /* Font size */
+               color: #333; /* Text color */
+               background-color: #ac9999; /* Background color of the box */
+               text-align: center; /* Center text inside the box */
+               box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+           }
+   
+       p3 {
+           border: 2px solid #333; /* Border properties */
+               padding: 10px; /* Space inside the border */
+               font-size: xx-small; /* Font size */
+               color: #333; /* Text color */
+               background-color: #016317; /* Background color of the box */
+               text-align: center; /* Center text inside the box */
+               box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+               position: absolute; /* Absolute positioning */
+               bottom: 0px; /* Distance from the bottom */
+               right: 0px; /* Distance from the right */
+       }
+   
+   
+   
+   </body>
+   
+   
+   
+   </style> 
+   </html>
